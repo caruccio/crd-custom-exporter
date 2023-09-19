@@ -41,6 +41,6 @@ customResourceDefinitions:
 Which will generate the following prometheus metrics:
 
 ```
-crd_exposter_velero_io_v1_included_namespaces_webapp{namespace="megastore" name="shopping" job="crd-exporter"} 1
-crd_exposter_velero_io_v1_included_namespaces_database{namespace="megastore" name="shopping" job="crd-exporter"} 1
+crd_exporter_velero_io_v1_included_namespaces_webapp{namespace="megastore" name="shopping" job="crd-exporter"} 1
+crd_exporter_velero_io_v1_included_namespaces_database{namespace="megastore" name="shopping" job="crd-exporter"} 1
 ```
