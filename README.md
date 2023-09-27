@@ -38,6 +38,20 @@ customResourceDefinitions:
   - included_namespaces: spec.template.includedNamespaces
 ```
 
+or maybe:
+
+
+```
+customResourceDefinitions:
+- apiVersion: velero.io/v1
+  kind: Schedule
+  spec:
+    template:
+      includedNamespaces:
+      - webapp
+      - database
+```
+
 Which will generate the following prometheus metrics:
 
 ```
